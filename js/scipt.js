@@ -94,3 +94,18 @@ function dropdown3 () {
         document.getElementById("dropdown-significator2").style.transform = "rotate(0deg)"
     }
 }
+
+
+window.addEventListener('scroll', () => {
+    togglebacktop()
+})
+
+function togglebacktop(){
+    let backtop = document.getElementById("backtop")
+
+    if(document.body.scrollTop > 600 || document.documentElement.scrollTop > 600){
+        backtop.style.bottom = "30px"
+    }else{
+        backtop.style.bottom = "-100%"
+    }
+}
