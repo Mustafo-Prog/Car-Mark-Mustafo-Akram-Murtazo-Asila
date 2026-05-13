@@ -179,3 +179,52 @@ document.querySelectorAll(".navbar__center-a123").forEach(link => {
         a1()
     })
 })  
+
+let name = prompt("What is your name?")
+
+alert("Welcome " + name)
+
+let old = prompt("How old are you?")
+
+let city = prompt("Where you was born?")
+
+confirm("Are you study in Najot Talim?")
+
+let mith = prompt("Do you like math?")
+
+let year = "2026"
+
+if(mith === "yes"){
+    alert("+ part")
+    let number1 = prompt("Write down first number!")
+    let number2 = prompt("Write down second number!")
+    let answwer = (Number(number1) + Number(number2))    
+    alert("Answer " + answwer)
+
+    alert("- part")
+    let number3 = prompt("Write down first number!")
+    let number4 = prompt("Write down second number!")
+    let answwer1 = (Number(number3) - Number(number4))    
+    alert("Answer " + answwer1)
+    
+    alert("* part")
+    let number5 = prompt("Write down first number!")
+    let number6 = prompt("Write down second number!")
+    let answwer2 = (Number(number5) * Number(number6))    
+    alert("Answer " + answwer2)
+
+    alert("/ part")
+    let number7 = prompt("Write down first number!")
+    let number8 = prompt("Write down second number!")
+    let answwer3 = (Number(number7) / Number(number8))    
+    alert("Answer " + answwer3)
+}else{
+    console.log("User doesn't like math!");
+}
+
+let mico = (Number(year) - Number(old))
+
+console.log("User's name is " + name);
+console.log("User is " + old + " years old!");
+console.log("User was born in " + mico);
+console.log("The user was born in " + city)
