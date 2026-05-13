@@ -166,7 +166,7 @@
     .navbar__content123{
         position: fixed;
         display: flex;
-        top: -1000%;
+        top: -100%;
         left: 0;
         width: 100%;
         height: 100%;
