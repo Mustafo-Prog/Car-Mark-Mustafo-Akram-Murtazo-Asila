@@ -167,7 +167,7 @@ function variant5() {
 }
 
 function a1(){
-    document.querySelector('.navbar__content123').style.top = "-100%"
+    document.querySelector('.navbar__content123').style.top = "-1000%"
 }
 
 function a2(){
