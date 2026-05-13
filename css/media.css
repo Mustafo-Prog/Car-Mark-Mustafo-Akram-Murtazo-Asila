@@ -175,6 +175,7 @@
         backdrop-filter: blur(10px);
         flex-direction: column;
         transition: 150ms ease-in-out;
+        gap: 5px;
     }
     .navbar__center123{
         flex-direction: column;
