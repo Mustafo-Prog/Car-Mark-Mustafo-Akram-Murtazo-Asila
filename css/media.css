@@ -1,0 +1,310 @@
+@media (max-width: 1400px) {
+    .advise__left{
+        max-width: 500px;
+    }
+    .advise__left h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .advise__hero{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .advise__left{
+        max-width: 600px;
+        text-align: center;
+    }
+    .already2__right h1{
+        font-size: 35px;
+    }
+    .already2__right button{
+        padding: 12px 20px;
+    }
+}
+@media (max-width: 1150px) {
+    .navbar__center{
+        gap: 20px;
+    }
+    .navbar__content{
+        gap: 30px;
+    }
+}
+@media (max-width: 1115px) {
+    .request__cards{
+        flex-direction: column;
+    }
+    .request__card{
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .about__us-right{
+        max-width: 400px;
+    }
+    .request__card-head{
+        display: flex;
+        gap: 5px;
+    }
+    .request__card-foot img{
+        display: none;
+    }
+    .request__card-head img{
+        display: block;
+    }
+}
+@media (max-width: 1050px) {
+    .bakalashka{
+        flex-direction: column;
+    }
+    .auto__cards-1-hero{
+        flex-direction: column;
+    }
+    .auto__cards-2-hero{
+        flex-direction: column;
+    }
+    .auto__cards-3-hero{
+        flex-direction: column;
+    }
+    .already1-main{
+        flex-direction: column;
+    }
+    .already1-main-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 1010px) {
+    .navbar__right{
+        gap: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    #a1{
+        display: block;
+    }    
+    .header__left-head h1{
+        text-align: center;
+    } 
+    .header__left-head p{
+        text-align: center;
+    }
+    .header__left-foot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__left-foot a{
+        margin: 0 auto;
+    }
+    .header__right{
+        display: none;
+    }  
+    .already2__hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    .already2__right h1{
+        font-size: 50px;
+    }
+    .already2__right button{
+        padding: 30px 30px;
+        font-size: 20px;
+    }
+    .already2__right{
+        justify-content: center;
+        align-items: center;
+    }
+    .garanty1-main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    .garanty1-main-card{
+        max-width: 400px;
+    }
+    .garanty1-foot{
+        flex-direction: column;
+        text-align: center;
+    }
+    .comparing1__main-main{
+        flex-direction: column;
+    }
+    .comparing2__hero{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .comparing2__hero h1{
+        font-size: 30px;
+    }
+    .comparing-left{
+        max-width: 1200px;
+    }
+    .comparing-right{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 990px) {
+    .wrapper{
+        position: relative;
+    }
+    .navbar__center{
+        display: none;
+    }
+    #openelo{
+        display: block;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar__content123{
+        position: fixed;
+        display: flex;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.767);
+        z-index: 999;
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        transition: 150ms ease-in-out;
+    }
+    .navbar__center123{
+        flex-direction: column;
+    }
+    .navbar__center123 a{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    .navbar__right123{
+        flex-direction: column;
+    }
+    .navbar__right-right123 p{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    .navbar__right-left123 a img{
+        background: white;
+        transform: scale(1.1);
+    }
+    .navbar__right123 a svg{
+        background: white;
+        border-radius: 50%;
+    }
+    #closelo{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        display: block;
+        font-size: 80px;
+        color: white;
+    }
+}
+@media (max-width: 950px) {
+    .about__us-hero{
+        flex-direction: column;
+    }
+    .about__us-right{
+        max-width: 500px;
+    }
+    .garanty2-main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    #garanty2-main-card1{
+        grid-column: span 1;
+    }
+    #garanty2-main-card2{
+        grid-column: span 1;
+    }
+    #garanty2-main-card3{
+        grid-column: span 1;
+    }
+    #garanty2-main-card4{
+        grid-column: span 1;
+    }
+}
+@media (max-width: 700px) {
+    .advise{
+        padding: 120px 0;
+    }
+    .already1__hero h1{
+        font-size: 30px;
+    }
+    .already{
+        padding: 120px 0;
+    }
+}
+@media (max-width: 670px) {
+    .procces-main-dropdown-main h2{
+        font-size: 50px;
+    }
+    .procces-main-dropdown-main-center p{
+        font-size: 30px;
+    }
+    .procces-main-dropdown-info-block{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .procces-main-dropdown-info-block-right a{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 570px) {
+    .request__head-head h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .comparing1__main-main{
+        padding: 20px;
+    }
+    .amin{
+        flex-direction: column;
+        text-align: center;
+    }
+    .procces-main-dropdown-main-center p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .navbar__right-right p{
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .request__card-head{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .request__card{
+        padding: 20px 10px;
+    }
+    .comparing-left{
+        padding: 20px;
+    }
+    .comparing-right{
+        padding: 20px;
+    }
+    .garanty2-main-card{
+        padding: 20px;
+    }
+    .garanty2-head h1{
+        font-size: 30px;
+    }
+    .header__left-head h1{
+        font-size: 40px;
+    }
+}
